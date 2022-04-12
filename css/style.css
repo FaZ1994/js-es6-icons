@@ -1,0 +1,58 @@
+body {
+    background-color:lightgray;
+}
+
+.header-top {
+background-color: white;
+color: #29b1dd;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+height: 3.5em;
+padding-left: .5em;
+}
+
+.search {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:3.5em;
+    background-color:#29b1dd;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#icons-container{
+    width: 1000px;
+    margin:0 auto;
+    margin-top: 10em;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+    row-gap:50px;
+}
+
+.card {
+    font-size: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 5px #888888;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    
+}
+
+
+.card .title {
+    font-size: 10px;
+    font-weight: bold;
+}
